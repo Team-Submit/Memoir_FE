@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Color, MainColor } from "../../interface";
+import { Link } from "react-router-dom";
 
 export const Header = styled.div`
   height: 64px;
@@ -12,35 +13,45 @@ export const Header = styled.div`
 export const HeaderArea = styled.div`
   width: 1024px;
   height: 100%;
-  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-& > div{
+  & > div {
     width: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
-}
+    width: 300px;
+  }
 
   & > img {
     width: 130px;
   }
 
-  & > Button{
+  & > button {
     background-color: ${Color.HeaderInput};
     border: 1px solid ${Color.HeaderInputBorder};
     font-weight: bold;
-    font-size: 18px;
-    width: 100px;
+    font-size: 16px;
+    width: 90px;
     height: 40px;
     border-radius: 8px;
-    &:hover{
-        background-color: ${MainColor};
-        color: white;
-        transition: all 0.3s
+    &:hover {
+      background-color: ${MainColor};
+      color: white;
+      transition: all 0.3s;
     }
+  }
+`;
+
+export const SLink = styled(Link)`
+  font-size: 16px;
+  font-weight: bold;
+  color: ${Color.HeaderLine};
+  text-decoration: none;
+  &:hover {
+    color: ${MainColor};
+    transition: all 0.3s;
   }
 `;
