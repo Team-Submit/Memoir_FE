@@ -35,6 +35,7 @@ export const Memoir_Content = styled.div`
   font-size: 14px;
   color: ${Color.MainFont};
   margin-top: 5px;
+  height: 50px;
 `;
 
 export const Memoir_Flex = styled.div`
