@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
