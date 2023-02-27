@@ -7,4 +7,5 @@ export const Color = {
     HeaderInputBorder : "rgba(156, 156, 156, 0.2);",
     MainFont : "#454545", 
     MainFontDW : "#5E5E5E",
+    LoginInputFont: "#808080",
 }
