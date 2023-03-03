@@ -18,11 +18,9 @@ export const HeaderArea = styled.div`
   align-items: center;
 
   & > div {
-    width: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
   }
 
   & > img {
