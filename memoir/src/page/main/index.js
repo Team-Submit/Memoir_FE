@@ -1,5 +1,6 @@
 import * as _ from "./styles.js";
 import { useNavigate } from "react-router-dom";
+import { getAccessToken } from "../../config/constants.js";
 
 function Main() {
   const navigate = useNavigate();
